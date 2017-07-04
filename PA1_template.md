@@ -93,7 +93,7 @@ print(steps)
 hist(steps)
 ```
 
-![](PA1_template_files/figure-html/histogram of steps per day-1.png)<!-- -->
+![](PA1_template_files/figure-html/histogram_of_steps_per day-1.png)<!-- -->
 
 ### Calculate and report the mean and median of the total number of steps taken per day
 
@@ -219,7 +219,7 @@ plot(int.table,
      ylab = "Average number of steps")
 ```
 
-![](PA1_template_files/figure-html/daily pattern plot-1.png)<!-- -->
+![](PA1_template_files/figure-html/daily_pattern_plot-1.png)<!-- -->
 
 ### Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -313,7 +313,7 @@ mtext("After imputing missing values with average number of steps for their resp
       line = 0.5)
 ```
 
-![](PA1_template_files/figure-html/steps.2 histogram-1.png)<!-- -->
+![](PA1_template_files/figure-html/steps.2_histogram-1.png)<!-- -->
 
 
 ```r
@@ -386,7 +386,7 @@ legend("bottomright",
        cex = 0.8)
 ```
 
-![](PA1_template_files/figure-html/staircase plot-1.png)<!-- -->
+![](PA1_template_files/figure-html/staircase_plot-1.png)<!-- -->
 
 
 ## Are there differences in activity patterns between weekdays and weekends?
@@ -472,4 +472,4 @@ xyplot(mean.steps ~ interval | weekday,
                               labels = hour.table[tlabels, 2])))
 ```
 
-![](PA1_template_files/figure-html/panel plot-1.png)<!-- -->
+![](PA1_template_files/figure-html/panel_plot-1.png)<!-- -->
