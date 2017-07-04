@@ -93,7 +93,7 @@ print(steps)
 hist(steps)
 ```
 
-![](PA1_template_files/figure-html/histogram_of_steps_per day-1.png)<!-- -->
+![](PA1_template_files/figure-html/histogram_of_steps_per_day-1.png)<!-- -->
 
 ### Calculate and report the mean and median of the total number of steps taken per day
 
